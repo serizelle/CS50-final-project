@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <div class="header-inner">
+                <div class="header-brand">Sims 2 AC</div>
+                <div class="header-logo">
+                            <img src="img/crystal-ball-white.svg" alt="crystal-ball">
+                </div>
+                 <nav class="header-nav"><a class="header-nav-link " href="index.html">Home</a>
+                <nav class="header-nav"><a class="header-nav-link active" href="calculator.html">Calculator</a></nav>
+                </nav>
+            </div>
+        </header>
+        <div class="container__calculator">
+            <h1 class="title">Enter your Sim's data <span>(from 0 to 10)</span></h1>
+            <div class="content calculator__content">
+                <div class="interests__block">
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Environment</p>
+                            <input type="number" value="0" min="0" max="10" id="environment" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Food</p>
+                            <input type="number" value="0" id="food" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Weather</p>
+                            <input type="number" value="0" id="weather" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Culture</p>
+                            <input type="number" value="0" id="culture" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Money</p>
+                            <input type="number" value="0" id="money" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Politics</p>
+                            <input type="number" value="0" id="poilitics" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Paranormal</p>
+                            <input type="number" value="0" id="paranormal" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Health</p>
+                            <input type="number" value="0" id="health" min="0" max="10"  class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Fashion</p>
+                            <input type="number" value="0" id="fashion" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Travel</p>
+                            <input type="number" value="0" id="travel" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Crime</p>
+                            <input type="number" value="0" id="crime" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Sports</p>
+                            <input type="number" value="0" id="sports" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Entertainment</p>
+                            <input type="number" value="0" id="entertainment" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Animals</p>
+                            <input type="number" value="0" id="animals" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Work</p>
+                            <input type="number" value="0" id="work" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">School</p>
+                            <input type="number" value="0" id="school" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Toys</p>
+                            <input type="number" value="0" id="toys" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Sci-Fi</p>
+                            <input type="number" value="0" id="scifi" min="0" max="10" class="sim-interests-input">
+                    </div>
+                </div>
+                <div class="personality__block">
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Neat</p>
+                            <input type="number" value="0" id="neat" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Outgoing</p>
+                            <input type="number" id="outgoing" value="0" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Active</p>
+                            <input type="number" id="active" value="0" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Playful</p>
+                            <input type="number" id="playful" value="0" min="0" max="10" class="sim-interests-input">
+                    </div>
+                    <div class="sim-interests">
+                            <p class="sim-interests_text">Nice</p>
+                            <input type="number" id="nice" value="0" min="0" max="10" class="sim-interests-input">
+                    </div>
+                </div>
+            </div>
+            <button class="btn" onclick="calculate()">Result</button>
+        </div>
+        <div class="popup-result hidden_family" id="popup_family">
+                <h2 class="subtitle">Your sim is...</h2>
+                <h1 class="title">The strict parent or Family man <span class="span_family">(Family aspiration)</span></h1>
+                <p class="text popup__text">Strict parents have high expectations towards their kids. They want them to bring perfect grades, pick up new skills and keep their room nice and clean all the time. They also take mischiefs very seriously.<br><strong>OR</strong><br>A bit nasty and chaotic household but full of joy and laughter. These parents consider their younglings partners in every aspect of life and they just simply want them to have as much fun as they can.</p>
+                <h3 class="popup__list-title">Recommended Life Time Wishes:</h3>
+                <ul class="popup__list">
+                    <li class="popup__list-item">Reach Golden Anniversary</li>
+                    <li class="popup__list-item">Graduate 3 Children from College</li>
+                    <li class="popup__list-item">Become Chief of Staff</li>
+                    <li class="popup__list-item">Have 6 Grandchildren</li>
+                    <li class="popup__list-item">Become Education Minister</li>
+                    <li class="popup__list-item">Marry Off 6 Children</li>
+                    <li class="popup__list-item">Reach Golden Anniversary</li>
+                </ul>
+               <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+        <div class="popup-result hidden_romance" id="popup_romance">
+            <h2 class="subtitle">Your sim is...</h2>
+            <h1 class="title">Serial romances or Hopeless romantic <span class="span_romance">(Romance aspiration)</span></h1>
+            <p class="text popup__text">Romance sims as we know them. Broken hearts, unexpected babies, and a lot of drama, wherever they go.<br><strong>OR</strong><br>These sims lay awake in their beds and read classical romance books by the pale moonlight. They tend to be rather shy and insecure about their feelings but deep inside their heart, they long to find the one and only true love of their life.</p>
+            <h3 class="popup__list-title">Recommended Life Time Wishes:</h3>
+            <ul class="popup__list">
+                <li class="popup__list-item">WooHoo with 20 Different Sims</li>
+                <li class="popup__list-item">Have 50 Dream Dates</li>
+                <li class="popup__list-item">Have 50 Dream Dates</li>
+                <li class="popup__list-item">Reach Golden Anniversary</li>
+                <li class="popup__list-item">Become Professional Party Guest</li>
+            </ul>
+           <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+        <div class="popup-result hidden_fortune" id="popup_fortune">
+            <h2 class="subtitle">Your sim is...</h2>
+            <h1 class="title">Hardworker or Shady <span class="span_fortune">(Fortune aspiration)</span></h1>
+            <p class="text popup__text">These sims are not waiting for miracles, they want to rule the world and they are willing to sacrifice whatever it takes to take their place amongst the richest. <br><strong>OR</strong><br>You hate working but you want to be rich? These sims have the solution for that whether it is a theft, a sugar daddy, or corruption.</p>
+            <h3 class="popup__list-title">Recommended Life Time Wishes:</h3>
+            <ul class="popup__list">
+                <li class="popup__list-item">Earn §100,000</li>
+                <li class="popup__list-item">Own 5 Top-Level Businesses</li>
+                <li class="popup__list-item">Become Criminal Mastermind</li>
+                <li class="popup__list-item">Become Media Magnate</li>
+                <li class="popup__list-item">Become City Planner</li>
+            </ul>
+           <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+        <div class="popup-result hidden_popularity" id="popup_popularity">
+            <h2 class="subtitle">Your sim is...</h2>
+            <h1 class="title">Friend of the world or Public enemy <span class="span_popularity">(Popularity aspiration)</span></h1>
+            <p class="text popup__text">There's nothing to make these sims happier than being loves by everyone and everything, wherever they go. They are extremely kind and stay diplomatic whatever it takes to avoid confrontation.<br><strong>OR</strong><br>These sims want fame and they are willing to sacrifice anything to get known. They usually have a very bad reputation around the neighborhood because of their countless scandals.</p>
+            <h3 class="popup__list-title">Recommended Life Time Wishes:</h3>
+            <ul class="popup__list">
+                <li class="popup__list-item">Own 5 Top-Level Businesses</li>
+                <li class="popup__list-item">Have 20 Simultaneous Best Friends</li>
+                <li class="popup__list-item">Become Business Tycoon</li>
+                <li class="popup__list-item">Become Cult Leader</li>
+                <li class="popup__list-item">Become Mayor</li>
+                <li class="popup__list-item">Become Captain Hero</li>
+            </ul>
+           <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+        <div class="popup-result hidden_pleasure" id="popup_pleasure">
+            <h2 class="subtitle">Your sim is...</h2>
+            <h1 class="title">The modest enjoyer or Hedonist <span class="span_pleasure">(Pleasure aspiration)</span></h1>
+            <p class="text popup__text">Modes pleasure sims like to enjoy their lives, eat good food and travel to exotic places but they also pay attention to their own longterm health.<br><strong>OR</strong><br>Hedonist sims wants everything they can have and they want them right away.</p>
+            <h3 class="popup__list-title">Recommended Life Time Wishes:</h3>
+            <ul class="popup__list">
+                <li class="popup__list-item">Have 50 Dream Dates</li>
+                <li class="popup__list-item">Become Professional Party Guest</li>
+                <li class="popup__list-item">Have 50 1st Dates</li>
+                <li class="popup__list-item">Become Icon</li>
+                <li class="popup__list-item">Become Visionary</li>
+                <li class="popup__list-item">Become Game Designer</li>
+            </ul>
+           <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+        <div class="popup-result hidden_knowledge" id="popup_knowledge">
+            <h2 class="subtitle">Your sim is...</h2>
+            <h1 class="title">Good or Evil scientist <span class="span_knowledge">(Knowledge aspiration)</span></h1>
+            <p class="text popup__text">These geniuses put their mind in the sevice of others and common good<br><strong>OR</strong><br>respect no work etiques, they do whatever it takes to achieve their goals wheter it is taking over the world or inventing the next superflu.</p>
+            <h3 class="popup__list-title">Recommended Life Time Wishes:</h3>
+            <ul class="popup__list">
+                <li class="popup__list-item">Max Out 7 Skills</li>
+                <li class="popup__list-item">Become Chief of Staff</li>
+                <li class="popup__list-item">Become Education Minister</li>
+                <li class="popup__list-item">Become City Planner</li>
+                <li class="popup__list-item">Become Head of SCIA</li>
+                <li class="popup__list-item">Become Mad Scientist</li>
+                <li class="popup__list-item">Become Criminal Mastermind</li>
+            </ul>
+           <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+        <div class="popup-result hidden_wrong" id="popup_wrong">
+            <h1 class="title">Wrong values!</h1>
+            <p class="text popup__text">They are all zeros.</p>
+           <a class="btn__close-popup" href="calculator.html">Close</a> 
+        </div>
+    </div>
+    <footer class="footer">
+            <div class="contacts">
+                    <a class="contacts-link" href="mailto:sailorelena@gmail.com">
+                        <img class="contacts-item" src="img/mail.svg" alt="">
+                        sailorelena@gmail.com</span></a>
+                    <a class="contacts-link" href="tel:+79528846589">
+                        <img class="contacts-item" src="img/tel.svg" alt="">
+                        +7 952 884 6589</a>
+                        <p class="year"><span class="footer__year">@</p>
+            </div>
+    </footer>     
+    <script defer src="script.js"></script>
+</body>
+</html>
